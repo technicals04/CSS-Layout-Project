@@ -1,0 +1,118 @@
+
+
+
+
+
+
+
+
+<!-- THIRD SECTION -->
+    <section id="third">
+      <div class="container">
+        <div class="firstContainer">
+          <h1>The world's biggest <br> healthcare platform</h1>
+          <p>We work from 9 offices all over the world, bringing Docplanner <br>
+            Group to life in 13 countries.
+          </p>
+          <img src="images/logocropped.png" alt="">
+        </div>
+  
+
+        <div class="secondContainer">
+          <div class="first">
+            <div class="boxOne">
+              <img src="/images/flag.png" width="25" alt="">
+              <h1>Leader in 13 countries</h1>
+              <p>Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
+
+            </div>
+            <div class="boxOne">
+              <img src="/images/patients.png" width="25" alt="">
+              <h1>90,000,000 patients</h1>
+              <p>visit our websites each month</p>
+
+            </div>
+          </div>
+
+          <div class="second">
+            <div class="boxOne">
+              <img src="/images/visits.png" width="25" alt="">
+              <h1>15,000,000 appointments</h1>
+              <p>booked last month</p>
+
+            </div>
+            <div class="boxOne">
+              <img src="/images/doctors.png" width="25" alt="">
+              <h1>210,000 active doctors</h1>
+              <p>trust our solutions</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+css
+
+/* THIRD SECTION */
+
+#third {
+  background-color: #d0faf4;
+  padding: 55px 50px 0;
+}
+#third .container {
+  display: flex;
+  justify-content: space-around;
+}
+#third .container .firstContainer {
+  padding: 60px 0 0 50px;
+}
+#third .container .firstContainer h1 {
+  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: #00c3a5;
+  margin-bottom: 30px;
+}
+#third .container .firstContainer p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #747474;
+  margin-bottom: 50px;
+}
+
+#third .container .secondContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#third .container .secondContainer .first .boxOne {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  width: 220px;
+  height: 240px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+#third .container .secondContainer .second .boxOne {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  width: 220px;
+  height: 240px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+
+
+
